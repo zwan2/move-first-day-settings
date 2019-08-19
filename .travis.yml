@@ -9,10 +9,8 @@ script: npm run build
 deploy:
  provider: pages
  skip_cleanup: true
- github_token: $GITHUB_TOKEN
+ github_token: 4a68925627559a74a9dd846882378b6e0451e598
  local_dir: dist
  on:
    branch: master
 
-
-travis set GITHUB_TOKEN=4a68925627559a74a9dd846882378b6e0451e598
